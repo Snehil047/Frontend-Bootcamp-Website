@@ -1,0 +1,21 @@
+.news-input{
+  margin-left: 500px;
+  width: 40%;
+}
+
+body::before{
+  display: block;
+  content: '';
+  height: 55px;
+}
+
+.newsletter{
+  background-color: rgb(234, 166, 7);
+}
+
+@media (max-width: 768px){
+  .news-input{
+    display: inline;
+    
+  }
+}
